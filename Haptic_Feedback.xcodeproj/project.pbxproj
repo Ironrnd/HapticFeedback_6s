@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDE2FF571DCFB911002204D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2FF561DCFB911002204D8 /* AppDelegate.swift */; };
+		CDE2FF591DCFB911002204D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2FF581DCFB911002204D8 /* ViewController.swift */; };
+		CDE2FF5C1DCFB911002204D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE2FF5A1DCFB911002204D8 /* Main.storyboard */; };
+		CDE2FF5E1DCFB911002204D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE2FF5D1DCFB911002204D8 /* Assets.xcassets */; };
+		CDE2FF611DCFB911002204D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE2FF5F1DCFB911002204D8 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CDE2FF531DCFB911002204D8 /* Haptic_Feedback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Haptic_Feedback.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE2FF561DCFB911002204D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDE2FF581DCFB911002204D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDE2FF5B1DCFB911002204D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDE2FF5D1DCFB911002204D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDE2FF601DCFB911002204D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDE2FF621DCFB911002204D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDE2FF501DCFB90F002204D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDE2FF4A1DCFB90F002204D8 = {
+			isa = PBXGroup;
+			children = (
+				CDE2FF551DCFB911002204D8 /* Haptic_Feedback */,
+				CDE2FF541DCFB911002204D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDE2FF541DCFB911002204D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDE2FF531DCFB911002204D8 /* Haptic_Feedback.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDE2FF551DCFB911002204D8 /* Haptic_Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				CDE2FF561DCFB911002204D8 /* AppDelegate.swift */,
+				CDE2FF581DCFB911002204D8 /* ViewController.swift */,
+				CDE2FF5A1DCFB911002204D8 /* Main.storyboard */,
+				CDE2FF5D1DCFB911002204D8 /* Assets.xcassets */,
+				CDE2FF5F1DCFB911002204D8 /* LaunchScreen.storyboard */,
+				CDE2FF621DCFB911002204D8 /* Info.plist */,
+			);
+			path = Haptic_Feedback;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDE2FF521DCFB90F002204D8 /* Haptic_Feedback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE2FF651DCFB911002204D8 /* Build configuration list for PBXNativeTarget "Haptic_Feedback" */;
+			buildPhases = (
+				CDE2FF4F1DCFB90F002204D8 /* Sources */,
+				CDE2FF501DCFB90F002204D8 /* Frameworks */,
+				CDE2FF511DCFB90F002204D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Haptic_Feedback;
+			productName = Haptic_Feedback;
+			productReference = CDE2FF531DCFB911002204D8 /* Haptic_Feedback.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDE2FF4B1DCFB90F002204D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Andrew Belozerov";
+				TargetAttributes = {
+					CDE2FF521DCFB90F002204D8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 676778BJEB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CDE2FF4E1DCFB90F002204D8 /* Build configuration list for PBXProject "Haptic_Feedback" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDE2FF4A1DCFB90F002204D8;
+			productRefGroup = CDE2FF541DCFB911002204D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDE2FF521DCFB90F002204D8 /* Haptic_Feedback */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDE2FF511DCFB90F002204D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE2FF611DCFB911002204D8 /* LaunchScreen.storyboard in Resources */,
+				CDE2FF5E1DCFB911002204D8 /* Assets.xcassets in Resources */,
+				CDE2FF5C1DCFB911002204D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDE2FF4F1DCFB90F002204D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE2FF591DCFB911002204D8 /* ViewController.swift in Sources */,
+				CDE2FF571DCFB911002204D8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDE2FF5A1DCFB911002204D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE2FF5B1DCFB911002204D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDE2FF5F1DCFB911002204D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE2FF601DCFB911002204D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDE2FF631DCFB911002204D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDE2FF641DCFB911002204D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDE2FF661DCFB911002204D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 676778BJEB;
+				INFOPLIST_FILE = Haptic_Feedback/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.proSwift.Haptic-Feedback";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CDE2FF671DCFB911002204D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 676778BJEB;
+				INFOPLIST_FILE = Haptic_Feedback/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.proSwift.Haptic-Feedback";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDE2FF4E1DCFB90F002204D8 /* Build configuration list for PBXProject "Haptic_Feedback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE2FF631DCFB911002204D8 /* Debug */,
+				CDE2FF641DCFB911002204D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE2FF651DCFB911002204D8 /* Build configuration list for PBXNativeTarget "Haptic_Feedback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE2FF661DCFB911002204D8 /* Debug */,
+				CDE2FF671DCFB911002204D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDE2FF4B1DCFB90F002204D8 /* Project object */;
+}
